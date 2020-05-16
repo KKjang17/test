@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div>Art Filters</div>
+        </header> 
+        
+        <div id="mainContainer">
+
+            <div id="sliders">
+                <form>
+                    <p>Opacity:</p>
+
+                    <div id="opacity" class="sliderBar">                   
+                        <input type="range" min="0" max="100" value="100" class="slider" id="opacitySlider">
+                        <p class="value">50%</p>
+                    </div>
+
+                    <p>Saturation:</p>
+
+                    <div id="saturation" class="sliderBar">                   
+                        <input type="range" min="0" max="300" value="100" class="slider" id="saturationSlider">
+                        <p class="value">100%</p>
+                    </div>
+
+                    <p>Brightness:</p>
+
+                    <div id="brightness" class="sliderBar">                   
+                        <input type="range" min="0" max="300" value="100" class="slider" id="brightnessSlider">
+                        <p class="value">100%</p>
+                    </div>
+
+                    <p>Hue Rotate:</p>
+
+                    <div id="hueRotate" class="sliderBar">                   
+                        <input type="range" min="0" max="300" value="0" class="slider" id="hueRotateSlider">
+                        <p class="value">0deg</p>
+                    </div>
+
+                    <p>Grayscale:</p>
+
+                    <div id="grayscale" class="sliderBar">                   
+                        <input type="range" min="0" max="100" value="0" class="slider" id="grayscaleSlider">
+                        <p class="value">0%</p>
+                    </div>
+
+                    <p>Blur:</p>
+
+                    <div id="blur" class="sliderBar">                   
+                        <input type="range" min="0" max="10" value="0" class="slider" id="blurSlider">
+                        <p class="value">0px</p>
+                    </div>
+
+                    <input type="reset" id="reset">
+                </form>
+            </div>
+
+            <div id="mainImage">
+                <img src="/images/city1.jpg" id="mainPic">
+                <p id="caption">City # 1</p>
+            </div>
+
+            <div id="pictureSelection">
+                
+                <div id="pictures">
+
+                    <div class="picture">
+                        <img src="/images/city1.jpg">
+                    </div>
+
+                    <div class="picture">
+                        <img src="/images/city2.jpg">
+                    </div>
+
+                    <div class="picture">
+                        <img src="/images/city3.jpg">
+                    </div>
+
+                    <div class="picture">
+                        <img src="/images/city4.jpg">
+                    </div>
+
+                    <div class="picture">
+                        <img src="/images/city5.jpg">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>        
+
+        <script src="main.js"></script>
+       
+    </body>   
+
+</html>    

@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(40, 72, 165);
+}
+
+#topNav {
+    width: 100%;
+    height: 30%;
+    background-color: darkblue;
+    justify-content: flex-end;
+    display: flex;
+}
+
+#topNav ul {
+    margin: 7px 40px 0px 0px;
+}
+
+#topNav li {
+    color: lightblue;
+    display: inline;
+    margin-right: 30px;
+}
+#topNav a:visited, #topNav a:link {
+    color: lightblue;
+    text-decoration: none;
+}
+
+#botNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#title {
+    color: white;
+    font-size: 3vw;
+    margin: 10px 10px 10px 50px;
+}
+
+#botNav ul {
+    margin-left: 40px;
+}
+
+#botNav li {
+    color: lightsteelblue;
+    display: inline;
+    margin-right: 30px;
+}
+
+#botNav a:visited, #botNav a:link {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+
+#mainContent {
+    display: flex;
+    width: 80%;
+    height: 60%;
+    background-color: lightseagreen;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#mainContent img{
+    width: 25%;
+    height: (1/3);
+}
+
+.gray {
+    filter: grayscale(100%);
+}
+
+#submitButton {
+    color: white;
+    background-color: magenta;
+    border: none;
+    padding: 3px 10px 3px 10px;
+}
