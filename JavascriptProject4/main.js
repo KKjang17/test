@@ -1,21 +1,16 @@
 let captions = ["The Madarin Duck", "The Turaco", "The Golden Pheasant", 
                 "The Rainbow Lorikeet", "The Quetzal"];
 
-let birds = ["images/bird1.jpg", "images/bird2.jpg", "images/bird3.jpg", "images/bird4.jpg", "images/bird5.jpg"];
-
 window.addEventListener("load", function() {
     let pictureString = ".pic";
     let pictures = document.querySelectorAll(pictureString);
     
-    for (i=0; i<pictures.length; i++) {
+    for (let i = 0; i < pictures.length; i++) {
         pictures[i].addEventListener("click", function(e) {
 
             let currentImage = e.target.src;
             document.querySelector("#bigPic").src = currentImage;
-            let index = currentImage.charAt(52);
-            console.log(index);
-
-            document.querySelector("figcaption").innerHTML = captions[index - 1];
+            document.querySelector("figcaption").innerHTML = captions[i];
         })
     }
 
