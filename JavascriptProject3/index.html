@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+  
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/18f2013824.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            
+        </header> 
+        
+        <div id="main">
+            
+            <div id="banner">Edit Art Work Details</div>
+
+            <div id="forms">
+
+                <form method="POST" action="process.php">
+                    <label for="title" id="titleLabel">Title</label><br>
+                    <input type="text" name="title" id="titleField" class="longField required">
+                    <i class="fas fa-exclamation-circle" id="red1"></i>
+
+                    <label for="description" id="descriptionLabel">Description</label><br>
+                    <input type="text" name="description" id="descriptionField" class="longField required">
+                    <i class="fas fa-exclamation-circle" id="red2"></i>
+
+                    <div id="midSection">
+                        <div id="leftColumn">
+                            <div class="leftDiv">
+
+                                <label for="genre" id="genreLabel">Genre</label><br>
+
+                                <select id="genreList" name="genre">                              
+                                    <option value="default">Choose Genre</option>
+                                    <option value="modern">Modern</option>
+                                    <option value="classic">Classic</option>
+                                </select>
+
+                            </div>
+
+                            <div class="leftDiv">
+
+                                <label for="subject" id="subjectLabel">Subject</label><br>
+
+                                <select id="subjectList" name="subject">                              
+                                    <option value="default">Choose Subject</option>
+                                    <option value="warfare">Warfare</option>
+                                    <option value="fertility">Fertility</option>
+                                </select>
+
+                            </div>
+
+                            <div class="leftDiv">
+
+                                <label for="medium" id="mediumLabel">Medium</label><br>
+                                <input type="text" name="medium" id="mediumField" class="midField">
+
+                            </div>
+
+                            <div class="leftDiv">
+
+                                <label for="year" id="yearLabel">Year</label><br>
+                                <input type="text" name="year" id="yearField" class="smallField required">
+
+                            </div>
+
+                            <div class="leftDiv">
+
+                                <label for="museum" id="mesiumLabel">Museum</label><br>
+                                <input type="text" name="museum" id="museumField" class="midField">
+                                <i class="fas fa-exclamation-circle" id="red3"></i>
+
+
+                            </div>
+                       
+                        </div>
+
+                        <div id="rightColumn">
+                            <div id="typeBox">
+                                <p>Type</p>
+                                <input type="radio" id="painting" name="type" value="painting">
+                                <label for="painting">Painting</label><br>
+                                <input type="radio" id="sculpture" name="type" value="sculpture">
+                                <label for="sculpture">Sculpture</label>
+                            </div>
+
+                            <div id="iccsBox">
+                                <p>Image Creative Commons Specifications</p>
+                                <input type="checkbox" id="attribution" name="attribution" value="Attribution">                   
+                                <label for="attribution">Attribution</label><br>
+                        
+                                <input type="checkbox" id="noncommercial" name="noncommercial" value="Noncommercial">    
+                                <label for="noncommercial">Noncommercial</label><br>
+                            
+                                <input type="checkbox" id="noDerivativeWorks" name="noDerivativeWorks" value="NoDerivativeWorks">                         
+                                <label for="noDerivativeWorks">NoDerivativeWorks</label><br>
+
+                                <input type="checkbox" id="shareAlike" name="shareAlike" value="ShareAlike">
+                                <label for="shareAlike">Share Alike</label><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="bottomBar">
+                
+                        <input type="submit" value="Submit" class="bottomButton">
+                        <input type="reset" value="Reset" class="bottomButton">
+                    
+                    </div>
+                </form>
+            </div>
+            
+
+        </div>
+
+        <script src="main.js"></script>
+       
+    </body>   
+
+</html>    
