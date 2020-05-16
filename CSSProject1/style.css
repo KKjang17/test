@@ -1,0 +1,172 @@
+
+/* ***** Header and Footer ***** */
+
+header, footer {
+    color: white;
+    background-color: #1A237E;
+    margin: 0em 4em 0em 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+/* ***** Main Body ***** */
+
+body {
+    background-color: #E8EAF6;
+}
+
+.mainBody {
+    margin: 0.5em 4em 15px 4em;
+    padding: 10px 10px 30px 10px;
+    background-color: white;
+}
+
+/* ***** Top Banner ***** */
+
+.big {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
+.small {
+    font-size: small;
+    font-style: italic;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* ***** Nav Link Bars ***** */
+
+nav {
+    background-color: #3F51B5;  
+}
+
+ul {
+    list-style-type: none;
+    padding: 3px 0px 3px 0px;
+}
+
+li {
+    display: inline;
+    padding: 5px 3px 5px 3px;
+}
+
+a:link {
+    color: #00B0FF;
+}
+
+a:visited {
+    color: #00B0FF;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #F50057;
+}
+
+a:hover {
+    background-color: #F50057;
+    color: white;
+}
+
+.footerNav {
+    font-size: small;
+    padding: 0px 0px 8px 8px;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 10%;
+}
+
+/* ***** Central Park Picture Section ***** */
+
+.pondCaption {
+    width: 100%;
+    background-color: #C5CAE9;
+    padding: 10px 0px 10px 0px;
+    margin: 0em 0em 0em 0em;
+    font-style: italic;
+}
+
+.pondText {
+    padding: 0px 0px 0px 10px;
+}
+
+.pondDescription {
+    padding: 8px 8px 5px 8px;
+    border-color: #C5CAE9;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 12px;
+}
+
+.centralParkPicture {
+   width:100%;
+   font-size: 0; 
+}
+
+.bluePadding {
+    background-color: #7986CB;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+
+.whiteText {
+    padding: 10px 5px 10px 5px;
+    font-size: medium;
+}
+
+.parkPic {
+    width:100%;
+}
+
+/* ***** Related Photos ***** */
+
+.relatedPhotos {
+    width: 200px;
+    height: 200px;
+}
+
+.photoSection {
+    border-color: #C5CAE9;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 12px;
+}
+
+/* ***** Review Section ***** */
+
+.reviews {
+    border-color: #C5CAE9;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 5px; 
+}
+
+.comment {
+    padding: 15px 15px 5px 15px;
+}
+
+time {
+    color: #FF80AB
+}
+
+.signature {
+    color: #7986CB;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+hr {
+    color: #7986CB;
+}
+

@@ -1,0 +1,161 @@
+/* ***** Header ***** */
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    height: 500px;
+    filter: grayscale(100%) brightness(20%);
+}
+
+header figcaption {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+header figcaption p {
+    font-size: large;
+}
+
+header figcaption button {
+    background-color: transparent;
+    color: white;
+    border-width: 1px;
+}
+
+/* ***** Latest Additions Section ***** */
+
+hr {
+    margin-top: 1px;
+}
+
+.latestAdditions {
+   margin: 20px 100px 20px 100px;
+   width: 1170px;
+   height: 190px;
+}
+
+.item1 {
+    float: left;
+    width: 580px;
+}
+
+.item1 img{
+    margin-right: 10px;
+}
+
+.item1 figcaption {
+    font-size: 16px;
+    width: 285px;
+    height: 190px;
+    float: right;
+}
+
+.item2 img {
+    float: left;
+    margin-left: 10px;
+}
+
+.item2 figcaption {
+    font-size: 16px;
+    width: 285px;
+    height: 190px;
+    float: right;
+}
+
+.orangeButton {
+    float: right;
+    color: white;
+    font-weight: bold;
+    background-color: lightsalmon;
+    border: none;
+}
+
+/* ***** Portrait Sizes ***** */
+
+.small {
+    width: 285px;
+    height: 190px;
+}
+
+.medium {
+    width: 285px;
+    height: 390px;
+}
+
+.large {
+    width: 580px;
+    height: 390px;
+}
+
+/* ***** Gallery ***** */
+
+.gallery {
+    margin: 70px 100px 20px 100px;
+    width: 1070px;
+    height: 990px;
+}
+
+.pb {
+    position: absolute;
+    left: 690px;
+}
+
+.pc {
+    position: absolute;
+    left: 690px;
+    top: 983px;
+}
+
+.pd {
+    position: absolute;
+    left: 985px;
+    top: 783px;
+}
+
+.pe {
+    position: absolute;
+    left: 100px;
+    top: 1183px;
+}
+
+.pf {
+    position: absolute;
+    left: 395px;
+    top: 1183px;
+}
+
+.pg {
+    position: absolute;
+    left: 690px;
+    top: 1183px;
+}
+
+.pj {
+    position: absolute;
+    left: 395px;
+    top: 1383px;
+}
+
+.ph {
+    position: absolute;
+    left: 985px;
+    top: 1183px;
+}
+
+.pi {
+    position: absolute;
+    left: 100px;
+    top: 1583px;
+}
+
+.pk {
+    position: absolute;
+    left: 985px;
+    top: 1583px;
+}

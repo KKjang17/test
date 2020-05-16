@@ -1,0 +1,101 @@
+/* ***** Header ***** */
+
+header {
+    background-color: rgb(33, 33, 228);
+    margin: 20px 70px 20px 70px;
+    color: white;
+    height: 50px;
+}
+
+header p {
+    padding: 15px 0px 10px 15px;
+    font-family: fantasy, serif;
+    font-size: large;
+}
+
+/* ***** Country Boxes * *****/
+
+#container {
+    display: flex;
+    align-items: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 70px 0px 70px;
+}
+
+.countryBox { 
+    background-color: #7986CB;
+    flex-direction: column;   
+    width: 24%;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.name {
+    color: white;
+    font-size: xx-large;
+    margin: 10px 0px 0px 10px;
+}
+
+.continent {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+}
+
+/* ***** City Boxes ***** */
+
+.cities {
+    background-color: #C5CAE9;
+    margin: 5px 10px 0px 10px;
+}
+
+#cityHeader {   
+    font-family: fantasy, serif;
+    margin: 3px 0px 3px 3px;
+    font-size: 22px;
+}
+
+.city {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px 0px 3px 3px;
+}
+
+/* ***** Photo Boxes ***** */
+
+.photos {
+    background-color: #C5CAE9;
+    margin: 5px 10px 3px 10px;
+    
+}
+
+#photoBox {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+#photoHeader {   
+    font-family: fantasy, serif;
+    margin: 3px 0px 3px 3px;
+    font-size: 22px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 5px 5px 5px;    
+}
+
+/* ***** Button ***** */
+
+button {
+    margin: 3px 9px 10px 10px;
+    color: white;
+    background-color: rgb(209, 9, 75);
+    border: none;
+    height: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,73 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin: 30px 0px 30px 50px;
+}
+
+table {
+    border: 1px solid black;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 0px 30px 0px 30px;
+    padding: 0;
+}
+
+th {
+    background-color: orange;
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    color: white;
+    border: 1px solid #ddd;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 0;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    padding: 5px 70px 0px 5px;
+}
+
+.description {
+    padding: 0px 150px 0px 5px;
+}
+
+.quantity {
+    padding: 0px 27px 0px 27px;
+}
+
+.price {
+    padding: 0px 5px 0px 35px;
+}
+
+.amount {
+    padding: 0px 5px 0px 63px;
+}
+
+/* ***** Checkout Section ***** */
+
+.checkout {
+    background-color: lightyellow;
+}
+
+.final {
+    width: 775px;
+    height: 40px;
+}
+
+.result {
+    width: 125px;
+}
+
+.redText {
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+}
+
+span {
+    float: right;
+    padding-right: 7px;
+}

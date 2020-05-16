@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url("/images/background.jpg");
+    background-image: url("images/background.jpg");
     height: 100%;
     display: flex;
     justify-content: center;
@@ -15,10 +15,11 @@ header {
     width: 90%;
     height: 5%;
     margin-top: 30px;
+    font-size: 40px;
 }
 
 header div {
-    font-size: 3vw;
+    font-size: 1em;
     padding-left: 10px;
 }
 
@@ -59,6 +60,7 @@ form {
     width: 54%;
     height: 65%;
     background-color:white;
+    font-size: 17px;
 }
 
 #mainImage img{
@@ -91,9 +93,12 @@ form {
     height: 100%;
 }
 
-#caption {
-    padding: 10px 10px 10px 10px;
+#caption1 {
+    padding: 10px 10px 0px 10px;
+    font-style: italic;
+    font-size: 1em;
 }
+
 
 #reset {
     color: white;
