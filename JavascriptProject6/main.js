@@ -1,5 +1,5 @@
 
-let images = ["/images/monument1.jpg", "/images/monument2.jpg", "/images/monument3.jpg", "/images/monument4.jpg", 
+let images = ["monument1.jpg", "/images/monument2.jpg", "/images/monument3.jpg", "/images/monument4.jpg", 
             "/images/monument5.jpg", "/images/monument6.jpg", "/images/monument7.jpg", "/images/monument8.jpg", 
             "/images/monument9.jpg", "/images/monument10.jpg", "/images/monument11.jpg", "/images/monument12.jpg"];
 
