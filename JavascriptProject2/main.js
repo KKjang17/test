@@ -3,28 +3,28 @@ let countries = [
         "name" : "Canada",
         "continent" : "North America",
         "cities" : ["Calgary", "Montreal", "Toronto"], 
-        "photos" : ["/images/city1.jpg", "/images/city2.jpg", "/images/city3.jpg"]       
+        "photos" : ["images/city1.jpg", "images/city2.jpg", "images/city3.jpg"]       
     },    
     {
         "name" : "United States",
         "continent" : "North America",
         "cities" : ["Boston", "Chicago", "New York", "Seatle", "Washington"],        
-        "photos" : ["/images/city4.jpg", "/images/city5.jpg"] 
+        "photos" : ["images/city4.jpg", "images/city5.jpg"] 
     },
     {
         "name" : "Italy",
         "continent" : "Europe",
         "cities" : ["Florence", "Milan", "Naples", "Rome"],    
         "photos" : [
-            "/images/city6.jpg", "/images/city7.jpg", "/images/city8.jpg",
-            "/images/city9.jpg", "/images/city10.jpg", "/images/city11.jpg"
+            "images/city6.jpg", "images/city7.jpg", "images/city8.jpg",
+            "images/city9.jpg", "images/city10.jpg", "images/city11.jpg"
         ]     
     },
     {
         "name" : "Spain",
         "continent" : "Europe",
         "cities" : ["Almeria", "Barcelona", "Madrid"],   
-        "photos" : ["/images/city12.jpg", "/images/city13.jpg"]      
+        "photos" : ["images/city12.jpg", "images/city13.jpg"]      
     },
 ]
 
