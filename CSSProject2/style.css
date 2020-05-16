@@ -125,7 +125,7 @@ li {
 /* ***** Pattern Titles ***** */
 
 .titlePattern {
-    background-image: url(header-background.jpg);
+    background-image: url(images/header-background.jpg);
     background-size: 45px, 30px;
     background-repeat: repeat-x;
     height: 40px;
