@@ -1,0 +1,23 @@
+body {
+    position: relative;
+}
+
+#projectNav {
+    position: absolute;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    top: 50%;
+    left: -135px;
+    transition: left .5s ease-out;
+}
+
+#projectNav:hover {
+    transition: left .5s ease-out;
+    left: 0px;
+}
+
+#fadeLeft {
+    background-color: darkblue;
+    color: white;
+}
