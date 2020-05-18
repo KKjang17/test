@@ -52,7 +52,7 @@ let divEnd = "</div>";
 
 document.write(containerStart);
 
-function outputCities(cities) {
+outputCities = (cities) => {
     for (let city in cities) {
         document.write(cityStart);
         document.write(cities[city]);
@@ -60,31 +60,36 @@ function outputCities(cities) {
     }
 }
 
-function outputPhotos(photos) {
-    for (let photo in photos) {
-        
-        document.write(imgStart + photos[photo] + imgEnd);
-        
+outputPhotos = (photos) => {
+    for (let photo in photos) {        
+        document.write(imgStart + photos[photo] + imgEnd);       
     }
+}
+
+outputNames = (name, countries, end) => {
+    document.write(name);
+    document.write(countries);
+    document.write(end);
+}
+
+outputContinents = (continent, continents, end) => {
+    document.write(continent);
+    document.write(continents);
+    document.write(end);
 }
 
 for(let property in countries) {
     
     document.write(countryBoxStart);
 
-    //name section
-    document.write(nameStart);
-    document.write(countries[property].name);
-    document.write(divEnd);
+    //names section
+    outputNames(nameStart, countries[property].name, divEnd);
 
     //continent section
-    document.write(continentStart);
-    document.write(countries[property].continent);
-    document.write(divEnd);
+    outputContinents(continentStart, countries[property].continent, divEnd);
 
     //cities section
     document.write(citiesStart);
-
     document.write(cityHeader);
 
     outputCities(countries[property].cities);
@@ -103,7 +108,5 @@ for(let property in countries) {
 
     //button section
     document.write(visitButton);
-
     document.write(divEnd);
 }
-

@@ -66,11 +66,11 @@ a:visited {
     text-decoration: none;
 }
 
-li:hover {
+#nav li:hover {
     background-color: #F50057;
 }
 
-a:hover {
+#nav a:hover {
     background-color: #F50057;
     color: white;
 }
